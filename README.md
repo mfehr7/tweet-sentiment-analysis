@@ -61,7 +61,7 @@ If you prefer to run the project on your own machine, follow these steps.
 
 2.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/mfehr7/sentiment-analysis.git
+    git clone https://github.com/mfehr7/tweet-sentiment-analysis.git
     cd tweet-sentiment-analysis
     ```
 
