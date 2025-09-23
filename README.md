@@ -65,13 +65,20 @@ If you prefer to run the project on your own machine, follow these steps.
     cd tweet-sentiment-analysis
     ```
 
-3.  **Activate your Conda environment:**
+3.  **Activate your Conda Environment:**
     * **Windows:** Open Anaconda Prompt and run `conda activate [environment-name]`
     * **macOS/Linux:** Open Terminal and run `conda activate [environment-name]`
     * Make sure that JupyterLab is installed in your active environment
 
-4.  **Launch JupyterLab**
+4. **Install packages**
     * In your Anaconda Prompt (or Terminal), run the following command:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5.  **Launch JupyterLab**
+    * Now, you are ready to launch JupyterLab with the following command:
 
     ```bash
     jupyter lab
@@ -79,7 +86,7 @@ If you prefer to run the project on your own machine, follow these steps.
 
     This will start the JupyterLab server and should automatically open a new tab in your web browser. If it doesn't, your terminal will provide a URL (usually `http://localhost:8888/...`) that you can copy and paste into your browser.
 
-5.  **Run the Notebook**
+6.  **Run the Notebook**
 
     * From the file browser in JupyterLab, click on your notebook file (`sentiment-analysis.ipynb`).
     * Once the notebook is open, run the cells in order from top to bottom.
